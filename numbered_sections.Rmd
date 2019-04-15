@@ -1,0 +1,58 @@
+---
+title: "Teste de numeração de seções"
+author: Dan Reznik (PUC-CCE)
+date: Abril, 2019
+output: 
+  html_document:
+    mathjax: null
+    df_print: paged
+    code_folding: show
+    toc: true
+    toc_depth: 3
+    toc_float: true
+    theme: united
+    highlight: tango
+    number_sections: true
+    css: exercicios.css
+---
+
+```{r,echo=F}
+knitr::opts_chunk$set(
+  cache=T,
+  collapse=T,
+  comment="#>",
+  dpi=96
+)
+```
+
+# Seção
+
+## Subseção
+
+### Exercicio
+
+### Exercicio
+
+## Subseção
+
+### Exercicio
+
+## Subseção
+
+### Exercicio
+
+### Exercicio
+
+## Subseção
+
+### Exercicio
+
+Para pular linha deixar dois espaços no fim  
+Pulei uma linha
+Agora talvez não
+
+1. hello
+    a. ola
+    a. ciao
+    a. blabla
+1. goodbye

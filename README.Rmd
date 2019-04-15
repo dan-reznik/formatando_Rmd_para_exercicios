@@ -1,0 +1,15 @@
+---
+title: "Teste de numeração de seções"
+output: github_document
+---
+
+```{r,echo=F}
+knitr::opts_chunk$set(
+  cache=T,
+  collapse=T,
+  comment="#>",
+  dpi=96
+)
+```
+
+Ver a renderização com numeração e formatação .css [aqui](https://github.com/dan-reznik/formatando_Rmd_para_exercicios/numbered_sections.html)
